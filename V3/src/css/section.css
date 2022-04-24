@@ -1,0 +1,23 @@
+section{
+    display: flex;
+    flex-direction: row;
+}
+ 
+/* #BoxTwo{
+    width: 400px;
+} */
+
+@media screen and (max-width: 450px) {
+    section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+/* @media (min-width: 45px) and (max-width: 768px) {
+    section{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+} */

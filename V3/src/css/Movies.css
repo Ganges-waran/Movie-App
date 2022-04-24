@@ -1,0 +1,281 @@
+.CardBoxMovie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #19181F;
+    color: white;
+}
+.Movie-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    padding: 10px;
+}
+.Movie-title h6{
+    transition: .3s;
+}
+.Movie-title h6:hover{
+    color: #01a146 !important;
+}
+.innerMovieBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.inner-card-box{
+    width: 160px;
+}
+.movie-card{
+    /* height: auto; */
+    background-color: #19181F;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+    width: 148px;
+} 
+.movie-card:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 450px) {
+    .CardBoxMovie{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        background-color: #19181F;
+        color: white;
+    }
+    .Movie-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 88%;
+        padding: 5px;
+    }
+    .Movie-title h5{
+        font-size: 16px;
+    }
+    .Movie-title h6{
+        font-size: 14px;
+    }
+    .innerMovieBox{
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr;
+    }
+    .headtext{
+        font-size: 14px;
+    }
+    .paratext{
+        font-size: 10px;
+    }
+    .Movie-title h6{
+        transition: .3s;
+    }
+    .Movie-title h6:hover{
+        color: #01a146 !important;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 800px) {
+    .CardBoxMovie{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        background-color: #19181F;
+        color: white;
+        width: 470px;
+    }
+    .Movie-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 98%;
+        padding: 10px;
+    }
+    .Movie-title h5, .Movie-title h6{
+        font-size: 15px;
+    }
+    .innerMovieBox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .movie-card{
+        width: 110px;
+        background-color: #19181F;
+        border: none;
+        transition: .3s;
+        cursor: pointer;
+    }
+    .movie-card:hover{
+        transform: scale(1.1);
+    }
+    .headtext{
+        font-size: 12px;
+    }
+    .paratext{
+        font-size: 10px;
+    }
+    .Movie-title h6{
+        transition: .3s;
+    }
+    .Movie-title h6:hover{
+        color: #01a146 !important;
+    }
+
+}
+@media (min-width: 800px) and (max-width: 1026px) {
+    .CardBoxMovie{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        background-color: #19181F;
+        color: white;
+        width: auto;
+    }
+    .movie-card{
+        width: 125px;
+        background-color: #19181F;
+        border: none;
+        transition: .3s;
+        cursor: pointer;
+    }
+    .Movie-title h6{
+        transition: .3s;
+    }
+    .Movie-title h6:hover{
+        color: #01a146 !important;
+    }
+} 
+
+@media (min-width: 500px) and (max-width: 700px){
+    .CardBoxMovie{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        background-color: #19181F;
+        color: white;
+        width: auto;
+    }
+    .Movie-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 98%;
+        padding: 10px;
+    }
+    .Movie-title h5, .Movie-title h6{
+        font-size: 15px;
+    }
+    .innerMovieBox{
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr;
+    }
+    .movie-card{
+        width: 115px;
+        background-color: #19181F;
+        border: none;
+        transition: .3s;
+        cursor: pointer;
+    }
+    .movie-card:hover{
+        transform: scale(1.1);
+    }
+    .headtext{
+        font-size: 12px;
+    }
+    .paratext{
+        font-size: 10px;
+    }
+    .Movie-title h6{
+        transition: .3s;
+    }
+    .Movie-title h6:hover{
+        color: #01a146 !important;
+    }
+}
+@media (min-width: 1280px) and (max-width: 1440px) {
+    .CardBoxMovie{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        background-color: #19181F;
+        color: white;
+    }
+    .Movie-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 98%;
+        padding: 10px;
+    }
+    .innerMovieBox{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .movie-card{
+        background-color: #19181F;
+        border: none;
+        transition: .3s;
+        cursor: pointer;
+        width: 138px;
+    }
+    .movie-card:hover{
+        transform: scale(1.1);
+    }
+    .Movie-title h6{
+        transition: .3s;
+    }
+    .Movie-title h6:hover{
+        color: #01a146 !important;
+    }
+}
+@media (min-width: 1020px) and (max-width: 1026px){
+    .CardBoxMovie{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        background-color: #19181F;
+        color: white;
+    }
+    .Movie-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 98%;
+        padding: 10px;
+    }
+    .innerMovieBox{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .movie-card{
+        background-color: #19181F;
+        border: none;
+        transition: .3s;
+        cursor: pointer;
+        width: 120px;
+    }
+    .movie-card:hover{
+        transform: scale(1.1);
+    }
+    .Movie-title h6{
+        transition: .3s;
+    }
+    .Movie-title h6:hover{
+        color: #01a146 !important;
+    }
+}

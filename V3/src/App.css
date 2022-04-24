@@ -1,0 +1,26 @@
+.App {
+  /* background-color: #0f1115; */
+}
+
+.nav-link {
+  padding: 1px;
+}
+.card-body {
+  padding: 1rem 0;
+}
+#insideBoxTrai2
+{
+  overflow-x: hidden;
+}
+.scroll
+{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  padding-top:0px;
+  overflow-x: scroll !important;
+}
+.scroll::-webkit-scrollbar
+    {
+        display: none;
+    }

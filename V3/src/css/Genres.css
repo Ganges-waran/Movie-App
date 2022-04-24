@@ -1,0 +1,107 @@
+#SideBox{
+    width: 180px;
+    height: 600px;
+    padding: 10px;
+    background-color: #0F1115;
+    display: flex;
+    flex-direction: column;
+}
+#SideFirst{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sideFirstHead, #sideFirstP{
+    font-size: 15px;
+    padding-left: 30px;
+}
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    #SideBox{
+        display: none;
+    }
+}
+@media (min-width: 680px) and (max-width: 689px){
+    #SideBox{
+        width: 120px;
+        height: 600px;
+        padding: 10px;
+        background-color: #0F1115;
+        display: flex;
+        flex-direction: column;
+    }
+    #SideFirst{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #sideFirstHead, #sideFirstP{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+}
+@media (min-width: 1020px) and (max-width: 1026px){
+    #SideBox{
+        width: 120px;
+        height: 600px;
+        padding: 10px;
+        background-color: #0F1115;
+        display: flex;
+        flex-direction: column;
+    }
+    #SideFirst{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #sideFirstHead, #sideFirstP{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+}
+@media (min-width: 1280px) and (max-width: 1440px) {
+    #SideBox{
+        width: 130px;
+        height: 600px;
+        padding: 10px;
+        background-color: #0F1115;
+        display: flex;
+        flex-direction: column;
+    }
+    #SideFirst{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #sideFirstHead, #sideFirstP{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+}
+/*
+@media screen and (max-width: 764px) {
+    #SideBox{
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 800px) {
+    #sideFirtHead, #sideFirstP{
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    #SideBox{
+        width: 130px;
+        height: 600px;
+        padding: 10px;
+        background-color: #0F1115;
+        display: flex;
+        flex-direction: column;
+    }
+} */

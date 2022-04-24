@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.Wrapper1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Wrapper2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.movie-poster{
+    width: 250px;
+    height: 400px;
+}
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.movie-para{
+   font-size: 13px;
+}
+.iframe-box{
+    width: 90%;
+    height: 550px;
+}
+.data-box-two{
+    display: none;
+}
+
+@media screen and (max-width: 450px){
+    .Wrapper1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Wrapper2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    .movie-poster{
+        width: 200px;
+        height: 300px;
+    }
+    .text-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    movie-poster-title{
+        font-size: 16px;
+        /* padding-left: 40px; */
+    }
+    .movie-para{
+        width: 300px;
+       font-size: 13px;
+       text-align: right;
+       margin-top: -10px;
+    }
+    .movie-rating{
+        margin-top: -20px;
+    }
+    .iframe-box{
+        width: 90%;
+        height: 240px;
+    }
+    .data-box-two{
+        display: block;
+        padding-left: 20px;
+    }
+    .data-box-one{
+        display: none;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 690px){
+    .Wrapper1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Wrapper2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    .movie-poster{
+        width: 250px;
+        height: 400px;
+    }
+    .text-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .movie-para{
+       font-size: 13px;
+    }
+    .iframe-box{
+        width: 90%;
+        height: 260px;
+    }
+    .data-box-two{
+        display: none;
+    }
+    .swp-card{
+        padding: 15px;
+    }
+    
+}

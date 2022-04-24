@@ -1,0 +1,362 @@
+.display{
+    width: 190px;
+}
+.Right-side-box{
+    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.Trailer-part iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 90px;
+    padding: 10px;
+    margin-left: 6px;
+}
+.side-p{
+    width: 150px;
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+#desc h5{
+    padding-left: 5px;
+}
+#mobile{
+    display: none;
+}
+span{
+    display: none;
+}
+#insideBoxTrai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+#insideBoxTrai2{
+    display: none;
+}
+#insideBoxTrai h5{
+    text-align: center;
+}
+#loading{
+    display: none;
+}
+.btnDrop{
+    display: none;
+  }
+
+  @media (max-width: 1090px) and (max-width: 1097px) {
+    .display{
+        width: 220px;
+        background-color: #222128;
+    }
+    .Right-side-box{
+        padding: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .Trailer-part iframe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 175px;
+        height: 90px;
+        padding: 10px;
+        margin-left: 16px;
+    }
+    .side-p{
+        width: 150px;
+        font-size: 12px;
+        padding: 5px;
+        margin-left: 10px;
+        text-align: center;
+        margin-bottom: -10px;
+        margin-top: -10px;
+    }
+    #desc h5{
+        padding-left: 5px;
+    }
+    #mobile{
+        display: none;
+    }
+    span{
+        display: none;
+    }
+    #insideBoxTrai{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    #insideBoxTrai2{
+        display: none;
+    }
+    #insideBoxTrai h5{
+        text-align: center;
+    }
+    #loading{
+        display: none;
+    }
+    .btnDrop{
+        display: none;
+      }
+  }
+  
+/* @media (max-width: 685px) and (max-width: 764px){
+    .Trailer-part{
+        display: flex;
+        flex-direction: row;
+    }
+    .Trailer-part iframe{
+        width: 200px;
+        height: 100px;
+        padding-top: 5px;
+        margin: 10px;
+    }
+    .side-p{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .display
+    {
+        overflow-x: hidden !important;
+    }
+    .Right-side-box
+    {
+        overflow-x: hidden;
+    }
+    #mobile{
+        display: block;
+        overflow-x: scroll !important;
+    }
+    #mobile::-webkit-scrollbar
+    {
+        display: none;
+    }
+    #mobile h5{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    #desc{
+        display: none;
+    }
+}*/
+
+@media screen and (min-width: 320px) and (max-width: 450px) { 
+    #insideBoxTrai2{
+        display: inline;
+    }
+    #insideBoxTrai2 h5{
+        /* padding: 20px;
+        border: none; */
+        margin-left: 10px;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    #insideBoxTrai{
+        display: none;
+    }
+    .Trailer-part iframe{
+        margin-bottom: 10px;
+        margin-top: -20px;
+    }
+    span{
+        display: block;
+    }
+    #SlideIdIcon{
+       position: absolute;
+       top: 220px;
+       left: 350px;
+       cursor: pointer;
+    }
+    #SlideIdIconlft{
+        position: absolute;
+        top: 220px;
+        left: 40px;
+        cursor: pointer;
+     }
+    #mobile{
+        display: block;
+        overflow-x: scroll ;
+    }
+    #mobile::-webkit-scrollbar
+    {
+        display: none;
+    }
+    #desc{
+        display: none;
+    }
+    .btnDroptext{
+       display: block;
+       /* position: absolute;
+       top: 79px;
+       left: 290px; */
+       cursor: pointer;
+    }
+    .mobile-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+} 
+@media (min-width: 1020px) and (max-width: 1026px){
+    .display{
+        width: 190px;
+    }
+    .Right-side-box{
+        padding: 10px;
+        padding-right: 10px;
+        /* padding-left: 10px; */
+    }
+    .Trailer-part iframe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 165px;
+        height: 90px;
+        padding: 10px;
+        margin-left: 6px;
+    }
+    .side-p{
+        width: 150px;
+        font-size: 12px;
+        padding: 5px;
+        margin-left: 10px;
+        text-align: center;
+        margin-bottom: -10px;
+        margin-top: -10px;
+    }
+    #desc h5{
+        padding-left: 5px;
+    }
+    #mobile{
+        display: none;
+    }
+    span{
+        display: none;
+    }
+    #insideBoxTrai{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    #insideBoxTrai2{
+        display: none;
+    }
+    #insideBoxTrai h5{
+        text-align: center;
+    }
+    #loading{
+        display: none;
+    }
+    .btnDrop{
+        display: none;
+      }
+}
+
+@media (min-width: 680px) and (max-width: 689px){
+    .display{
+        width: 189px;
+    }
+    .Right-side-box{
+        padding: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .Trailer-part iframe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 155px;
+        height: 90px;
+        padding: 10px;
+        margin-left: 6px;
+    }
+    .side-p{
+        font-size: 12px;
+        padding: 5px;
+        margin-left: 4px;
+        text-align: center;
+        margin-bottom: -10px;
+        margin-top: -10px;
+        /* color: #c7c7c7; */
+    }
+    #desc h5{
+        padding-left: 5px;
+    }
+    #mobile{
+        display: none;
+    }
+    span{
+        display: none;
+    }
+    #insideBoxTrai{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    #insideBoxTrai2{
+        display: none;
+    }
+    #insideBoxTrai h5{
+        text-align: center;
+    }
+    #loading{
+        display: none;
+    }
+    .btnDrop{
+        display: none;
+      }
+}
+
+/* @media (min-width: 768px) and (max-width: 800px) {
+    .Right-side-box{
+        background-color: #222128;
+        color: white;
+        width: 180px;
+        
+    }
+    .Right-side-box h5{
+        font-size: 14px;
+    }
+    .Trailer-part iframe{
+        width: 120px;
+        height: 75px;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    .side-p{
+        font-size: 10px;
+        padding: 5px;
+    }
+    #mobile{
+        display: none;
+    }
+}
+@media (min-width: 800px) and (max-width: 1026px) {
+    .Right-side-box{
+        background-color: #222128;
+        color: white;
+        width: auto;
+      
+    }
+    .Trailer-part iframe{
+        width: 140px;
+        height: 75px;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+} */

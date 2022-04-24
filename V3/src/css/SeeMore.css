@@ -1,0 +1,21 @@
+.See-More-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #19181F;
+    color: white;
+}
+.movie-card{
+    transition: .3s;
+    cursor: pointer;
+}
+.head-con{
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.movie-card:hover{
+    transform: scale(1.1);
+}

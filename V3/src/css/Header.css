@@ -1,0 +1,459 @@
+#NavBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.row-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0f1115;
+}
+.LeftPart img {
+  margin-left: -230px;
+}
+.RightPart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -250px;
+}
+
+#headerlogoimg {
+  width: 30px;
+}
+#searchForm {
+  width: 300px;
+  color: white;
+  background-color: #19181f;
+  border: black;
+}
+#headerLinkPart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#headerLinkPart img {
+  width: 30px;
+}
+.btnDropIcon{
+  display: none;
+}
+.mobile-searcher{
+  display: none;
+}
+.mobile-search{
+  display: none;
+}
+
+@media screen and (max-width: 830px) {
+  .LeftPart img {
+    margin-left: -285px;
+  }
+  .RightPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -300px;
+  }
+  #searchForm{
+    display: none;
+
+  }
+}
+
+ @media screen and (max-width: 450px) {
+  #NavBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .row-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0f1115;
+  }
+  .LeftPart img {
+    margin-left: -140px;
+  }
+  .RightPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+  #headerlogoimg {
+    width: 20px;
+  }
+  #headerLinkPart {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 10px;
+    width: 100px;
+    /* border: 1px solid red; */
+  }
+  #headerLinkPart img {
+      /* margin-left: -200px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ; */
+  }
+  .linktextbtn{
+    display:  none !important;
+  }
+  .linktext {
+    font-size: 8px;
+  }
+  #headerLinkPart img {
+    width: 20px;
+    margin-right: 64px !important;
+    color: rgb(231, 220, 220);
+  }
+  .right-side-btn{
+    margin-right: -30px !important;
+    margin-left: -30px !important;
+  }
+  .btnDropIcon{
+    display: block;
+    margin-left: -90px;
+  }
+  #searchForm1{
+    margin-right: -200px;
+    height: 40px;
+    width: 100px;
+  }
+  .mobile-search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin-right: -200px !important;
+    /* background-color: #19181f; */
+  }
+  .search-input{
+    height: 24px;
+    width: 80%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: #DDDDDD;
+    color: black;
+    font-weight: 600;
+    padding-left: 15px;
+    /* padding-right: 30px; */
+    transition: .5s;
+  }
+  .head-img{
+    margin-left: 100px;
+  }
+  .search-span{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    height: 31px;
+    width: 31px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-60px);
+    margin-right: -100px;
+  }
+  #listData{
+    display: block;
+  }
+}
+
+@media (min-width: 680px) and (max-width: 689px){
+  #NavBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .row-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0f1115;
+  }
+  .LeftPart img {
+    margin-left: -190px;
+  }
+  .RightPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -220px !important;
+  }
+  
+  #headerlogoimg {
+    width: 30px;
+  }
+  #searchForm {
+    /* width: 300px;
+    color: white;
+    background-color: #19181f;
+    border: black; */
+    display: none;
+  }
+  #headerLinkPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #headerLinkPart img {
+    width: 30px;
+  }
+  .btnDropIcon{
+    display: none;
+  }
+  .right-side-btn{
+    /* margin-right: 10px !important; */
+  }
+}
+
+@media (min-width: 500px) and (max-width: 700px){
+  #NavBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .row-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0f1115;
+  }
+  .LeftPart img {
+    margin-left: -190px;
+  }
+  .RightPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -250px;
+  }
+  
+  #headerlogoimg {
+    width: 30px;
+  }
+  #searchForm {
+    /* width: 300px;
+    color: white;
+    background-color: #19181f;
+    border: black; */
+    display: none;
+  }
+  #headerLinkPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #headerLinkPart img {
+    width: 30px;
+  }
+  .btnDropIcon{
+    display: none;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1025px) {
+  #NavBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .row-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0f1115;
+  }
+  .LeftPart img {
+    margin-left: -200px;
+  }
+  .RightPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -240px;
+  }
+  
+  #headerlogoimg {
+    width: 30px;
+  }
+  #searchForm {
+    width: 300px;
+    color: white;
+    background-color: #19181f;
+    border: black;
+  }
+  #headerLinkPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #headerLinkPart img {
+    width: 30px;
+  }
+  .btnDropIcon{
+    display: none;
+  }
+
+}
+@media (min-width: 1276px) and (max-width: 1290px) {
+  #NavBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .row-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0f1115;
+  }
+  .img-part {
+    margin-left: -220px;
+  }
+  .RightPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -30px;
+  }
+  
+  #headerlogoimg {
+    width: 30px;
+  }
+  #searchForm {
+    width: 300px;
+    color: white;
+    background-color: #19181f;
+    border: black;
+  }
+  #headerLinkPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #headerLinkPart img {
+    width: 30px;
+  }
+  .btnDropIcon{
+    display: none;
+  }
+}
+@media (min-width: 1410px) and (max-width: 1440px) {
+  #NavBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .row-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0f1115;
+  }
+  .LeftPart img {
+    margin-left: -220px;
+  }
+  .RightPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 130px;
+  }
+  
+  #headerlogoimg {
+    width: 30px;
+  }
+  #searchForm {
+    width: 300px;
+    color: white;
+    background-color: #19181f;
+    border: black;
+  }
+  #headerLinkPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #headerLinkPart img {
+    width: 30px;
+  }
+  .btnDropIcon{
+    display: none;
+  }
+}
+/*
+@media screen and (max-width: 768px) {
+  #NavBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .row-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0f1115;
+  }
+  .LeftPart img {
+    margin-left: -90px;
+  }
+  .RightPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -140px;
+  }
+  #headerlogoimg {
+    width: 30px;
+  }
+  #searchForm {
+    width: 300px;
+    color: white;
+    background-color: #19181f;
+    border: black; 
+   
+  }
+  #headerLinkPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+  #headerLinkPart img {
+      margin-left: -50px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ;
+  }
+  .linktext {
+    font-size: 14px;
+  }
+  #headerLinkPart img {
+    width: 30px;
+    margin-right: 20px;
+  }
+}
+@media (min-width: 800px) and (max-width: 1026px){
+  .LeftPart img {
+    margin-left: -285px;
+  }
+  .RightPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -290px;
+  }
+} */
